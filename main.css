@@ -1,4 +1,23 @@
 h1 {
   font-size: 30px;
+  font-family: "Poppins";
+}
+
+.button {
+  background: red;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  font-style: 20px;
+  border: none;
+  color: white;
+}
+
+.button2 {
+  background: red;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  font-style: 20px;
+  border: none;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
