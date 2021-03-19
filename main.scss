@@ -1,27 +1,34 @@
-$fontHeading: "Poppins";
+@import "./variable";
+@import "./mixin";
+@import "./navbar";
 
 
-@mixin button {
-    background: red;
-    padding: 10px 20px;
-    font-family: $fontHeading;
-    font-style: 20px;
-    border: none;
-    color: white;
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+    margin-top: 20px;
 }
 
 
+p {
+    font-family: $fontHeading;
+}
+
 
 h1 {
+    text-align: center;
     font-size: 30px;
     font-family: $fontHeading;
 }
 
 .button{
     @include button()
+    
 }
 
 
 .button2{
     @include button()
 }
+

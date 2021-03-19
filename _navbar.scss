@@ -1,0 +1,23 @@
+@import "./variable";
+
+
+//nesting
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    font-family: $fontHeading;
+
+    li{
+        margin-right: 20px;
+        
+
+        a {
+            text-decoration: none;
+            color: gray;
+        }
+
+    }
+}

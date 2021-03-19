@@ -1,0 +1,11 @@
+@import "./variable";
+
+
+@mixin button {
+    background: red;
+    padding: 10px 20px;
+    font-family: $fontHeading;
+    font-style: 20px;
+    border: none;
+    color: white;
+}
